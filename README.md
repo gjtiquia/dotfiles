@@ -164,6 +164,14 @@ DOTFILES_HOME=/cygwin64$HOME
 dotfiles config --local core.autocrlf false
 ```
 
+### steps for Powershell
+
+the above steps are meant to be run on a bash shell
+
+you would need to "translate" them into Powershell commands
+
+see my [Powershell dotfiles](https://github.com/gjtiquia/.powershell_dotfiles/blob/main/OneDrive/Documents/PowerShell/Microsoft.PowerShell_profile.ps1) for an example of how it is "translated"
+
 ## setup shared dotfiles
 
 see each repo for setup steps, i probably documented them there
