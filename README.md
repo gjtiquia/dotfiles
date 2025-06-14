@@ -6,10 +6,13 @@ documentation of all my dotfiles, config files, etc
 
 ### Linux
 
-Ubuntu: 
+Ubuntu (bash): https://github.com/gjtiquia/.ubuntu_dotfiles 
+
+Termux (bash): https://github.com/gjtiquia/.termux_dotfiles
 
 ### MacOS
 
+MacOS (zsh): https://github.com/gjtiquia/.macos_dotfiles
 
 ### Windows
 
@@ -19,6 +22,10 @@ WSL (Ubuntu): https://github.com/gjtiquia/.wsl_dotfiles
 > technically can have the same as Ubuntu but... just in case lol
 
 Cygwin: https://github.com/gjtiquia/.cygwin_dotfiles
+
+> side note on terminals and shells on Windows
+
+> Windows Terminal is quite nice to use
 
 > if everything lives in WSL, i recommend using WSL
 
@@ -31,7 +38,11 @@ Cygwin: https://github.com/gjtiquia/.cygwin_dotfiles
 
 ## shared dotfiles
 
+Neovim (btw): https://github.com/gjtiquia/kickstart.nvim
 
+vim (btw): https://github.com/gjtiquia/.vim
+
+lazygit: https://github.com/gjtiquia/lazygit_config
 
 ## goals and non-goals
 
