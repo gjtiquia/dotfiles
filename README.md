@@ -2,6 +2,8 @@
 
 documentation of all my dotfiles, config files, etc
 
+- [$HOME dotfiles](## $HOME dotfiles)
+
 ## $HOME dotfiles
 
 ### Linux
@@ -57,11 +59,13 @@ this way i can choose individually which dotfiles are "shared", which are not
 
 some people like to use `GNU Stow` for managing their dotfiles
 
-i prefer not to, as i want less dependencies as possible, and a setup that works across Windows, MacOS, and Linux
+i prefer not to, as i want less dependencies as possible, and a consistent setup that works across Windows, MacOS, and Linux
 
 
 ## setup instructions for $HOME dotfiles
 
+these dotfiles live in the $HOME directory
 
+but not all files in the $HOME directory are version controlled
 
 ## setup instructions for shared dotfiles
