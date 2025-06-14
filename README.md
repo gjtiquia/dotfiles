@@ -2,10 +2,10 @@
 
 documentation of all my dotfiles, config files, etc
 
-- [$HOME dotfiles](##home-dotfiles)
-- [shared dotfiles](##shared-dotfiles)
-- [setup $HOME dotfiles](##setup-home-dotfiles)
-- [setup shared dotfiles](##setup-shared-dotfiles)
+- [$HOME dotfiles](#home-dotfiles)
+- [shared dotfiles](#shared-dotfiles)
+- [setup $HOME dotfiles](#setup-home-dotfiles)
+- [setup shared dotfiles](#setup-shared-dotfiles)
 
 ## $HOME dotfiles
 
