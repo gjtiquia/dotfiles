@@ -22,11 +22,11 @@ Cygwin: https://github.com/gjtiquia/.cygwin_dotfiles
 
 > if everything lives in WSL, i receommend using WSL
 
-> if some project files lives in Windows, i recommend using Powershell. 
-> surprisingly a lot of common Linux CLI tools are compiled for Windows too, with package managers like scoop or choco. 
-> so its actually quite usable. can be configured to "feel at home" like in Linux
-> Powershell makes it "feel more at home" compared to Command Prompt (cmd), so i recommend Powershell over Command Prompt too
-> (eg. you can use commands like `ls`)
+> if some project files lives in Windows, i recommend using Powershell.    
+> surprisingly a lot of common Linux CLI tools are compiled for Windows too, with package managers like scoop or choco.    
+> so its actually quite usable. can be configured to "feel at home" like in Linux    
+> Powershell makes it "feel more at home" compared to Command Prompt (cmd), so i recommend Powershell over Command Prompt too    
+> (eg. you can use commands like `ls`)    
 
 > i dont recommend using Cygwin. 
 > for "basic" use cases its ok. for more "advanced" things, you start to run into limitations and hacks
