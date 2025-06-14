@@ -62,12 +62,112 @@ this way i can choose individually which dotfiles are "shared", which are not
 
 some people like to use `GNU Stow` for managing their dotfiles
 
-i prefer not to, as i want less dependencies as possible, and a consistent setup that works across Windows, MacOS, and Linux
+i prefer not to, as i want less dependencies as possible, just plain ol' git, and a consistent setup that works across Windows, MacOS, and Linux
 
 ## setup $HOME dotfiles
+
+### preface
 
 these dotfiles live in the $HOME directory
 
 but not all files in the $HOME directory are version controlled
 
+hence there is some git magic to perform in order to make this work, as its not a typical git repo
+
+tldr: bare git repo
+
+the following steps are referenced from this amazing article
+- https://www.ackama.com/articles/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained/
+
+i "could" write a script to run all this but... running this manually "once" isnt too difficult i guess
+
+and... its nice to know under-the-hood whats going on, just in-case
+
+### the steps
+
+setting up git repo
+```bash
+DOTFILES_HOME=$HOME
+DOTFILES_GIT_DIR=.ubuntu_dotfiles # using Ubuntu as an example 
+
+# git init
+git init --bare $DOTFILES_HOME/$DOTFILES_GIT_DIR
+
+# set alias
+alias dotfiles="git --git-dir=$DOTFILES_HOME/$DOTFILES_GIT_DIR/ --work-tree=$DOTFILES_HOME"
+
+# check setup (should show a lot of untracked files)
+dotfiles status
+
+# only keep track of files we explicitly add
+dotfiles config --local status.showUntrackedFiles no
+
+# check setup (should not show untracked files)
+dotfiles status
+```
+
+remember add to .bashrc so it works for new shells
+```bash
+DOTFILES_HOME=$HOME
+DOTFILES_GIT_DIR=.ubuntu_dotfiles 
+
+# set alias
+alias dotfiles="git --git-dir=$DOTFILES_HOME/$DOTFILES_GIT_DIR/ --work-tree=$DOTFILES_HOME"
+```
+
+adding files to git repo
+```bash
+dotfiles add .bashrc
+dotfiles commit -m "add .bashrc"
+```
+
+push to remote
+```bash
+dotfiles remote add origin <remote-url>
+dotfiles push -u origin main
+```
+
+installing on new system
+```bash
+DOTFILES_HOME=$HOME
+DOTFILES_GIT_DIR=.ubuntu_dotfiles
+
+# set alias
+alias dotfiles="git --git-dir=$DOTFILES_HOME/$DOTFILES_GIT_DIR/ --work-tree=$DOTFILES_HOME"
+
+# .gitignore to prevent weird recursions
+echo $DOTFILES_GIT_DIR >> .gitignore
+
+# git clone
+git clone --bare <remote-url> $DOTFILES_HOME/$DOTFILES_GIT_DIR
+
+# checkout (handle overwrite files one-by-one manually if needed, eg. by renaming them as a backup, like .bashrc_bak)
+dotfiles checkout
+
+# only keep track of files we explicitly add
+dotfiles config --local status.showUntrackedFiles no
+
+# check setup (should not show untracked files)
+dotfiles status
+```
+
+### steps for Cygwin
+
+Cygwin has a lot of weird behavior, so there are some things that you do differently for Cygwin
+
+such as
+```bash
+# for some reason this is the only way to actually point to $HOME
+DOTFILES_HOME=/cygwin64$HOME
+
+# you may need to run this line to prevent issues with line endings
+dotfiles config --local core.autocrlf false
+```
+
 ## setup shared dotfiles
+
+see each repo for setup steps, i probably documented them there
+
+but most likely, they are either a self contained directory in `$HOME` or `$HOME/.config`
+
+so just do regular git cloning would suffice. just be aware of correct directory naming.
