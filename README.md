@@ -64,11 +64,10 @@ some people like to use `GNU Stow` for managing their dotfiles
 
 i prefer not to, as i want less dependencies as possible, and a consistent setup that works across Windows, MacOS, and Linux
 
-
-## setup instructions for $HOME dotfiles
+## setup $HOME dotfiles
 
 these dotfiles live in the $HOME directory
 
 but not all files in the $HOME directory are version controlled
 
-## setup instructions for shared dotfiles
+## setup shared dotfiles
