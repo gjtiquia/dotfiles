@@ -50,6 +50,8 @@ vim (btw): https://github.com/gjtiquia/.vim
 
 lazygit: https://github.com/gjtiquia/lazygit_config
 
+tmux: https://github.com/gjtiquia/.tmux
+
 ## goals and non-goals
 
 some people like to put all their dotfiles into a single repo
