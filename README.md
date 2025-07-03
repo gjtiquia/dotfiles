@@ -54,6 +54,8 @@ tmux: https://github.com/gjtiquia/.tmux
 
 flameshot: https://github.com/gjtiquia/flameshot_config
 
+ghostty: https://github.com/gjtiquia/ghostty_config
+
 ## goals and non-goals
 
 some people like to put all their dotfiles into a single repo
