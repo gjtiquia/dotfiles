@@ -28,20 +28,6 @@ WSL (Ubuntu): https://github.com/gjtiquia/.wsl_dotfiles
 
 Cygwin: https://github.com/gjtiquia/.cygwin_dotfiles
 
-> side note on terminals and shells on Windows
-
-> Windows Terminal is quite nice to use
-
-> if everything is in WSL, i recommend using WSL
-
-> if the project files are in Windows, i recommend using Powershell.    
-> surprisingly a lot of common Linux CLI tools are compiled for Windows too, with package managers like scoop or choco. so its actually quite usable. can be configured to "feel at home" like in Linux    
-> Powershell makes it "feel more at home" compared to Command Prompt (cmd), so i recommend Powershell over Command Prompt too. (eg. you can use commands like `ls`)    
-> although, it is worth exploring, whether the project files can fully be in Linux as well. if so, it might be worth just migrating everything to Linux and either use WSL, use a VM, or go full Linux with dual booting.
-
-> i dont recommend using Cygwin.    
-> for "basic" use cases its ok. for more "advanced" things, you start to run into limitations and hacks. you can pretty much achieve whatever you need with either WSL or Powershell
-
 ## shared dotfiles
 
 Neovim (btw): https://github.com/gjtiquia/kickstart.nvim
@@ -177,6 +163,20 @@ the above steps are meant to be run on a bash shell
 you would need to "translate" them into Powershell commands
 
 see my [Powershell dotfiles](https://github.com/gjtiquia/.powershell_dotfiles/blob/main/OneDrive/Documents/PowerShell/Microsoft.PowerShell_profile.ps1) for an example of how it is "translated"
+
+> side note on terminals and shells on Windows
+
+> Windows Terminal is quite nice to use
+
+> if everything is in WSL, i recommend using WSL
+
+> if the project files are in Windows, i recommend using Powershell.    
+> surprisingly a lot of common Linux CLI tools are compiled for Windows too, with package managers like scoop or choco. so its actually quite usable. can be configured to "feel at home" like in Linux    
+> Powershell makes it "feel more at home" compared to Command Prompt (cmd), so i recommend Powershell over Command Prompt too. (eg. you can use commands like `ls`)    
+> although, it is worth exploring, whether the project files can fully be in Linux as well. if so, it might be worth just migrating everything to Linux and either use WSL, use a VM, or go full Linux with dual booting.
+
+> i dont recommend using Cygwin.    
+> for "basic" use cases its ok. for more "advanced" things, you start to run into limitations and hacks. you can pretty much achieve whatever you need with either WSL or Powershell
 
 ## setup shared dotfiles
 
