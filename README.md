@@ -42,6 +42,8 @@ flameshot: https://github.com/gjtiquia/flameshot_config
 
 ghostty: https://github.com/gjtiquia/ghostty_config
 
+Open Bar (GNOME extension config): https://github.com/gjtiquia/openbar_config
+
 ## goals and non-goals
 
 some people like to put all their dotfiles into a single repo
