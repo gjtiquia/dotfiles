@@ -168,7 +168,8 @@ see my [Powershell dotfiles](https://github.com/gjtiquia/.powershell_dotfiles/bl
 
 > side note on terminals and shells on Windows
 
-> Windows Terminal is quite nice to use
+> Windows Terminal has weird behaviors with FiraMono font
+> Wezterm feels ok so far, we'll see with more usage over time
 
 > if everything is in WSL, i recommend using WSL
 
