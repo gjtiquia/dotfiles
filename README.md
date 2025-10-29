@@ -15,6 +15,8 @@ Ubuntu (bash): https://github.com/gjtiquia/.ubuntu_dotfiles
 
 Termux (bash): https://github.com/gjtiquia/.termux_dotfiles
 
+Steam Deck (bash): https://github.com/gjtiquia/.steamdeck_dotfiles
+
 ### MacOS
 
 MacOS (zsh): https://github.com/gjtiquia/.macos_dotfiles
