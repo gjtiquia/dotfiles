@@ -23,10 +23,11 @@ MacOS (zsh): https://github.com/gjtiquia/.macos_dotfiles
 
 ### Windows
 
-Powershell: https://github.com/gjtiquia/.powershell_dotfiles
+Powershell (and wezterm): https://github.com/gjtiquia/.powershell_dotfiles
 
 WSL (Ubuntu): https://github.com/gjtiquia/.wsl_dotfiles
 > technically can have the same as Ubuntu but... just in case lol
+> bound to be some differences running Ubuntu in wsl vs an entire OS
 
 Cygwin: https://github.com/gjtiquia/.cygwin_dotfiles
 
