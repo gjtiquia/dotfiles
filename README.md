@@ -41,9 +41,11 @@ lazygit: https://github.com/gjtiquia/lazygit_config
 
 tmux: https://github.com/gjtiquia/.tmux
 
-flameshot: https://github.com/gjtiquia/flameshot_config
+yazi: https://github.com/gjtiquia/yazi_config
 
 ghostty: https://github.com/gjtiquia/ghostty_config
+
+flameshot: https://github.com/gjtiquia/flameshot_config
 
 Open Bar (GNOME extension config): https://github.com/gjtiquia/openbar_config
 
