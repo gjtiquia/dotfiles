@@ -33,21 +33,29 @@ Cygwin: https://github.com/gjtiquia/.cygwin_dotfiles
 
 ## shared dotfiles
 
+### All
+
 Neovim (btw): https://github.com/gjtiquia/kickstart.nvim
 
 vim (btw): https://github.com/gjtiquia/.vim
-
-lazygit: https://github.com/gjtiquia/lazygit_config
 
 tmux: https://github.com/gjtiquia/.tmux
 
 yazi: https://github.com/gjtiquia/yazi_config
 
+lazygit: https://github.com/gjtiquia/lazygit_config
+
 ghostty: https://github.com/gjtiquia/ghostty_config
+
+### Linux
 
 flameshot: https://github.com/gjtiquia/flameshot_config
 
 Open Bar (GNOME extension config): https://github.com/gjtiquia/openbar_config
+
+### MacOS
+
+Hammerspoon: https://github.com/gjtiquia/.hammerspoon
 
 ## goals and non-goals
 
