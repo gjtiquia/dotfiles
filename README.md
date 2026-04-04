@@ -47,6 +47,8 @@ lazygit: https://github.com/gjtiquia/lazygit_config
 
 ghostty: https://github.com/gjtiquia/ghostty_config
 
+ifg: https://github.com/gjtiquia/.ifg
+
 ### Linux
 
 flameshot: https://github.com/gjtiquia/flameshot_config
