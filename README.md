@@ -49,6 +49,8 @@ ghostty: https://github.com/gjtiquia/ghostty_config
 
 ifg: https://github.com/gjtiquia/.ifg
 
+pi: https://github.com/gjtiquia/.pi
+
 ### Linux
 
 flameshot: https://github.com/gjtiquia/flameshot_config
