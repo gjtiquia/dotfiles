@@ -77,6 +77,9 @@ i prefer not to, as i want less dependencies as possible, just plain ol' git, an
 
 ## setup $HOME dotfiles
 
+<details>
+<summary>v1: dotfiles alias</summary>
+
 ### preface
 
 these dotfiles live in the $HOME directory
@@ -182,6 +185,8 @@ the above steps are meant to be run on a bash shell
 you would need to "translate" them into Powershell commands
 
 see my [Powershell dotfiles](https://github.com/gjtiquia/.powershell_dotfiles/blob/main/OneDrive/Documents/PowerShell/Microsoft.PowerShell_profile.ps1) for an example of how it is "translated"
+
+</details>
 
 > side note on terminals and shells on Windows
 
