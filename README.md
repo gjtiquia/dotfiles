@@ -207,6 +207,25 @@ see my [Powershell dotfiles](https://github.com/gjtiquia/.powershell_dotfiles/bl
 </details>
 
 <details>
+<summary>v2: symlinks</summary>
+
+setting up `dotfiles` alias is such a pain sometimes
+- long setup steps, can never remember the exact commands
+- cant use `lazygit`
+
+realized... i rather `cp` the original file into the `.dotfiles` repo, then `rm`, then `ln -s`
+
+tho its annoying to do it per file / dir... at least its standard ops that can be memorized
+
+and u get granularity on what u want tracked and what u dont, so its sort of... incremental adoption-ish
+
+stuff "just works" too
+
+and this is how a lot of the other shared dotfiles work anyways~
+
+</details>
+
+<details>
 <summary>side note on terminals and shells on windows</summary>
 
 Windows Terminal has weird behaviors with FiraMono font    
