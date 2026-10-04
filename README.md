@@ -12,6 +12,8 @@ documentation of all my dotfiles, config files, etc
 <details>
 <summary>Linux</summary>
 
+Fedora (bash): https://github.com/gjtiquia/.fedora_dotfiles
+
 Ubuntu (bash): https://github.com/gjtiquia/.ubuntu_dotfiles 
 
 Termux (bash): https://github.com/gjtiquia/.termux_dotfiles
@@ -65,6 +67,8 @@ pi: https://github.com/gjtiquia/.pi
 
 <details>
 <summary>Linux</summary>
+
+evremap: https://github.com/gjtiquia/.evremap
 
 flameshot: https://github.com/gjtiquia/flameshot_config
 
