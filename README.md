@@ -9,7 +9,8 @@ documentation of all my dotfiles, config files, etc
 
 ## $HOME dotfiles
 
-### Linux
+<details>
+<summary>Linux</summary>
 
 Ubuntu (bash): https://github.com/gjtiquia/.ubuntu_dotfiles 
 
@@ -17,11 +18,17 @@ Termux (bash): https://github.com/gjtiquia/.termux_dotfiles
 
 Steam Deck (bash): https://github.com/gjtiquia/.steamdeck_dotfiles
 
-### MacOS
+</details>
+
+<details>
+<summary>MacOS</summary>
 
 MacOS (zsh): https://github.com/gjtiquia/.macos_dotfiles
 
-### Windows
+</details>
+
+<details>
+<summary>Windows</summary>
 
 Powershell (and wezterm): https://github.com/gjtiquia/.powershell_dotfiles
 
@@ -31,9 +38,12 @@ WSL (Ubuntu): https://github.com/gjtiquia/.wsl_dotfiles
 
 Cygwin: https://github.com/gjtiquia/.cygwin_dotfiles
 
+</details>
+
 ## shared dotfiles
 
-### All
+<details>
+<summary>Cross-Platform</summary>
 
 Neovim (btw): https://github.com/gjtiquia/kickstart.nvim
 
@@ -51,15 +61,23 @@ ifg: https://github.com/gjtiquia/.ifg
 
 pi: https://github.com/gjtiquia/.pi
 
-### Linux
+</details>
+
+<details>
+<summary>Linux</summary>
 
 flameshot: https://github.com/gjtiquia/flameshot_config
 
 Open Bar (GNOME extension config): https://github.com/gjtiquia/openbar_config
 
-### MacOS
+</details>
+
+<details>
+<summary>MacOS</summary>
 
 Hammerspoon: https://github.com/gjtiquia/.hammerspoon
+
+</details>
 
 ## goals and non-goals
 
