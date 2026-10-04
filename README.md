@@ -207,7 +207,7 @@ see my [Powershell dotfiles](https://github.com/gjtiquia/.powershell_dotfiles/bl
 </details>
 
 <details>
-<summary>v2: symlinks</summary>
+<summary>v2: symlinks (recommended)</summary>
 
 setting up `dotfiles` alias is such a pain sometimes
 - long setup steps, can never remember the exact commands
